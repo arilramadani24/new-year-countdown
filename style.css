@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/france-perles-wizj0ppghD0-unsplash.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  font-family: "JfWildwood", "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+h1,
+.big-text,
+.countdown-el {
+  color: #303530;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: -11rem;
+  font-weight: normal;
+  font-family: "Poppins";
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 7.5rem;
+  line-height: 1;
+  margin: 0 2rem;
+  font-weight: normal;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .big-text {
+    font-size: 3.5rem;
+  }
+
+  .countdown-el span {
+    font-size: 1rem;
+  }
+}
